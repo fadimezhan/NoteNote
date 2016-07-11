@@ -1,1 +1,32 @@
-%h1 Welcome Again!
+#banner
+  .banner_content
+    %h1 NoteNote
+    %p Your online notebook. Never forget your idea again.
+    %button=link_to "Sign In", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote= "The greatest notebook application. Period."
+    %p.name - Fadime Özhan
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pank Bansky vegan authentic Helvetica.
+      .callout
+        %h2 Rocket
+        %p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pank Bansky vegan authentic Helvetica.
+      .callout
+        %h2 Lightning
+        %p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pank Bansky vegan authentic Helvetica.
+
+#bottom_cta
+  .wrapper
+    %h2 For Realz!
+    %p I want you to sign up... If you don't, I'll find you.
+    %button= link_to "Click Meee!!", new_user_registration_path
+
+%footer
+  %p &copy; Fadime Özhan

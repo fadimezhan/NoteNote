@@ -1,7 +1,6 @@
-=@note.title
-%br/
-=@note.content
-%br/
+%h1= link_to @note.title, note_path(@note)
+%p= @note.content
+
 =link_to "Home", notes_path
 =link_to "Edit", edit_note_path(@note)
 =link_to "Destroy", note_path(@note) , method: :delete, data: {confirm: "Are you sure?"}
