@@ -1,5 +1,6 @@
-= simple_form_for @note do |f|
-  =f.input :title
-  =f.input :content
+.wrapper_with_padding
+  = simple_form_for @note do |f|
+    =f.input :title
+    =f.input :content
 
-  =f.button :submit, class: "button"
+    =f.button :submit, class: "button"
